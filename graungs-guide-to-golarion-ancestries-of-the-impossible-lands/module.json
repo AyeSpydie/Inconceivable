@@ -1,0 +1,56 @@
+{
+  "id": "graungs-guide-to-golarion-ancestries-of-the-impossible-lands",
+  "title": "Graung's Guide to Golarion: Ancestries of the Impossible Lands",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p><strong>Graung's Guide to Golarion: Ancestries of the Impossible Lands</strong> adds dozens of new ancestry feats and new heritages for <strong>Automatons</strong>, <strong>Dwarves</strong>, <strong>Geniekin</strong>, <strong>Ghorans</strong>, <strong>Kashrishi</strong>, <strong>Nagaji</strong>, <strong>Skeletons</strong>, <strong>Vanara</strong>, and <strong>Vishkanyas</strong>. It also includes two new ancestries—<strong>Girtablilu</strong>, the fearsome guardians of ruins and abandoned places and the cursed <strong>Ratajin</strong>, who seek to unravel the nature of the magic that has rewired their senses. Additionally, the <strong>Mana Wastes Mutant</strong> versatile heritage allows you to play as a creature who's body has been altered by the strange and warped magic of the Mana Wastes! Designed to work with Feats+!</p>",
+  "authors": [
+    {
+      "name": "Ian Speidel",
+      "email": "ayespydie@gmail.com",
+      "url": "patreon.com/ayespydie",
+      "discord": "AyeSpydie",
+      "flags": {}
+    }
+  ],
+  "url": "patreon.com/ayespydie",
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "ancestries",
+      "label": "GGtG: Ancestries of the Impossible Lands",
+      "path": "packs/ancestries",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    },
+    {
+      "name": "ggtg-impossible-lands-journals",
+      "label": "GGtG: Ancestries of the Impossible Lands Journals",
+      "path": "packs/ggtg-impossible-lands-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ],
+  "relationships": {
+    "recommends": [
+      {
+        "id": "pf2e-feats-plus",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}
