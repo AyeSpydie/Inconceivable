@@ -17,9 +17,6 @@
     }
   ],
   "url": "patreon.com/ayespydie",
-  "flags": {
-    "canUpload": true
-  },
   "packs": [
     {
       "name": "ancestries",
@@ -44,6 +41,64 @@
       "system": "pf2e"
     }
   ],
+  "packFolders": [
+    {
+      "name": "Graung's Guide to Golarion",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Ancestries of Iblydos",
+          "sorting": "m",
+          "packs": [
+            "ancestries",
+            "iblydos-items",
+            "iblydos-journal"
+          ],
+          "color": null,
+          "folders": []
+        }
+      ],
+      "color": null
+    }
+  ],
+  "flags": {
+    "graungs-guide-to-golarion-ancestries-of-the-impossible-lands": {
+      "pf2e-homebrew": {
+        "baseWeapons": {
+          "cyclopean-shatter-club": "Cyclopean Shatter Club",
+          "Minotaur-hand-axe": "Minotaur Hand Axe"
+        },
+        "creatureTraits": {
+          "girtablilu": "Girtablilu",
+          "ratajin": "Ratajin"
+        },
+        "equipmentTraits": {
+          "girtablilu": {
+            "label": "Girtablilu",
+            "description": "Equipment with this trait are used or created by girtablilus."
+          },
+          "ratajin": {
+            "label": "Ratajin",
+            "description": "Equipment with this trait are used or created by ratajins."
+          },
+        "featTraits": {
+          "girtablilu": "Girtablilu",
+          "ratajin": "Ratajin"
+        },
+        "weaponTraits": {
+          "girtablilu": {
+            "label": "Girtablilu",
+            "description": "Weapons with this trait are used or created by girtablilus."
+          },
+          "ratajin": {
+            "label": "Ratajin",
+            "description": "Weapons with this trait are used or created by ratajins."
+          }
+        }
+      }
+    }
+  },
   "relationships": {
     "recommends": [
       {
