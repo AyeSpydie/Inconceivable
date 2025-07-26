@@ -44,6 +44,65 @@
       "system": "pf2e"
     }
   ],
+  "packFolders": [
+    {
+      "name": "Graung's Guide to Golarion",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Ancestries of the Impossible Lands",
+          "sorting": "m",
+          "packs": [
+            "ancestries",
+            "iblydos-items",
+            "iblydos-journal"
+          ],
+          "color": null,
+          "folders": []
+        }
+      ],
+      "color": null
+    }
+  ],
+  "flags": {
+    "graungs-guide-to-golarion-ancestries-of-the-impossible-lands": {
+      "pf2e-homebrew": {
+        "baseWeapons": {
+          "cyclopean-shatter-club": "Cyclopean Shatter Club",
+          "Minotaur-hand-axe": "Minotaur Hand Axe"
+        },
+        "creatureTraits": {
+          "girtablilu": "Girtablilu",
+          "ratajin": "Ratajin"
+        },
+        "equipmentTraits": {
+          "girtablilu": {
+            "label": "Girtablilu",
+            "description": "Equipment with this trait is used or created by girtablilus."
+          },
+          "ratajin": {
+            "label": "Ratajin",
+            "description": "Equipment with this trait is used or created by ratajin."
+          }
+        },
+        "featTraits": {
+          "girtablilu": "Girtablilu",
+          "ratajin": "Ratajin"
+        },
+        "weaponTraits": {
+          "girtablilu": {
+            "label": "Girtablilu",
+            "description": "Weapons with this trait are used or created by girtablilus."
+          },
+          "ratajin": {
+            "label": "Ratajin",
+            "description": "Weapons with this trait are used or created by ratajin."
+          }
+        }
+      }
+    }
+  },
   "relationships": {
     "recommends": [
       {
@@ -52,5 +111,14 @@
         "compatibility": {}
       }
     ]
-  }
+  },
+    "media": [
+  {
+      "type": "setup",
+      "caption": "Graung's Guide to Golarion: Ancestries of the Impossible Lands",
+      "thumbnail": "modules/graungs-guide-to-golarion-ancestries-of-iblydos/art/Preview.webp"
+}],
+  "url": "https://github.com/AyeSpydie/Inconceivable",
+  "manifest": "https://raw.githubusercontent.com/AyeSpydie/BewareOfSwans/refs/heads/main/graungs-guide-to-golarion-ancestries-of-iblydos/module.json",
+  "download": "https://github.com/AyeSpydie/Inconceivable/archive/refs/heads/main.zip"
 }
