@@ -16,55 +16,7 @@
       "flags": {}
     }
   ],
-  "url": "patreon.com/ayespydie",
-  "flags": {
-    "canUpload": true
-  },
-  "packs": [
-    {
-      "name": "ancestries",
-      "label": "GGtG: Ancestries of the Impossible Lands",
-      "path": "packs/ancestries",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
-    },
-    {
-      "name": "ggtg-impossible-lands-journals",
-      "label": "GGtG: Ancestries of the Impossible Lands Journals",
-      "path": "packs/ggtg-impossible-lands-journals",
-      "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
-    }
-  ],
-  "packFolders": [
-    {
-      "name": "Graung's Guide to Golarion",
-      "sorting": "a",
-      "packs": [],
-      "folders": [
-        {
-          "name": "Ancestries of the Impossible Lands",
-          "sorting": "m",
-          "packs": [
-            "ancestries",
-            "iblydos-items",
-            "iblydos-journal"
-          ],
-          "color": null,
-          "folders": []
-        }
-      ],
-      "color": null
-    }
-  ],
+  "url": "https://github.com/AyeSpydie/Inconceivable",
   "flags": {
     "graungs-guide-to-golarion-ancestries-of-the-impossible-lands": {
       "pf2e-homebrew": {
@@ -103,6 +55,62 @@
       }
     }
   },
+  "packs": [
+    {
+      "name": "ancestries",
+      "label": "GGtG: Ancestries of the Impossible Lands",
+      "path": "packs/ancestries",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ggtg-impossible-lands-journals",
+      "label": "GGtG: Ancestries of the Impossible Lands Journals",
+      "path": "packs/ggtg-impossible-lands-journals",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ggtg-impossible-lands-roll-tables",
+      "label": "GGtG: Ancestries of the Impossible Lands Roll Tables",
+      "path": "packs/ggtg-impossible-lands-roll-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Graung's Guide to Golarion",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Ancestries of the Impossible Lands",
+          "sorting": "m",
+          "packs": [
+            "ancestries",
+            "iblydos-items",
+            "iblydos-journal"
+          ],
+          "color": null,
+          "folders": []
+        }
+      ],
+      "color": null
+    }
+  ],
   "relationships": {
     "recommends": [
       {
@@ -112,13 +120,15 @@
       }
     ]
   },
-    "media": [
-  {
+  "media": [
+    {
       "type": "setup",
       "caption": "Graung's Guide to Golarion: Ancestries of the Impossible Lands",
-      "thumbnail": "modules/graungs-guide-to-golarion-ancestries-of-iblydos/art/Preview.webp"
-}],
-  "url": "https://github.com/AyeSpydie/Inconceivable",
+      "thumbnail": "modules/graungs-guide-to-golarion-ancestries-of-iblydos/art/Preview.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
   "manifest": "https://raw.githubusercontent.com/AyeSpydie/Inconceivable/refs/heads/main/graungs-guide-to-golarion-ancestries-of-the-impossible-lands/module.json",
   "download": "https://github.com/AyeSpydie/Inconceivable/archive/refs/heads/main.zip"
 }
