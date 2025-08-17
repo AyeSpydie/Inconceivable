@@ -1,7 +1,7 @@
 {
   "id": "graungs-guide-to-golarion-ancestries-of-the-impossible-lands",
   "title": "Graung's Guide to Golarion: Ancestries of the Impossible Lands",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -26,6 +26,7 @@
         },
         "creatureTraits": {
           "girtablilu": "Girtablilu",
+          "manawastes-mutant": "Mana Wastes Mutant",
           "ratajin": "Ratajin"
         },
         "equipmentTraits": {
@@ -40,6 +41,7 @@
         },
         "featTraits": {
           "girtablilu": "Girtablilu",
+          "manawastes-mutant": "Mana Wastes Mutant",
           "ratajin": "Ratajin"
         },
         "weaponTraits": {
@@ -101,8 +103,8 @@
           "sorting": "m",
           "packs": [
             "ancestries",
-            "iblydos-items",
-            "iblydos-journal"
+            "ggtg-impossible-lands-journals",
+            "ggtg-impossible-lands-roll-tables"
           ],
           "color": null,
           "folders": []
