@@ -1,7 +1,7 @@
 {
   "id": "graungs-guide-to-golarion-ancestries-of-the-impossible-lands",
   "title": "Graung's Guide to Golarion: Ancestries of the Impossible Lands",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -126,7 +126,7 @@
     {
       "type": "setup",
       "caption": "Graung's Guide to Golarion: Ancestries of the Impossible Lands",
-      "thumbnail": "modules/graungs-guide-to-golarion-ancestries-of-iblydos/art/Preview.webp",
+      "thumbnail": "modules/graungs-guide-to-golarion-ancestries-of-the-impossible-lands/art/il-module-image.webp",
       "loop": false,
       "flags": {}
     }
